@@ -50,6 +50,5 @@ void UEngine::Tick()
 
 void UEngine::Render()
 {
-	system("cls");
 	World->Render();
 }

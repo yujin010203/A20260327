@@ -52,6 +52,7 @@ void UWorld::Load(std::string MapName)
 			{
 				SpawnActor<AGoal>()->SetActorLocation(X, Y);
 			}
+
 		}
 		Y++;
 	}
